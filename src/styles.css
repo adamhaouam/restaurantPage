@@ -1,3 +1,30 @@
+
+
 body {
     background-color: rgb(121, 163, 156);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
 }
+
+#content {
+    background-color: beige;
+    flex-grow: 1;
+    width: 100%;
+}
+
+#menuButton1, #menuButton2, #menuButton3 {
+    border: 3px solid black;
+    border-radius: 3px;
+}
+
+header, footer {
+    background-color: chocolate;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
