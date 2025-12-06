@@ -13,7 +13,10 @@ body {
 #content {
     background-color: beige;
     flex-grow: 1;
-    width: 100%;
+    width: min(90%, 800px);
+    margin: 20px;
+    padding: 25px;
+    border-radius: 5px;
 }
 
 #menuButton1, #menuButton2, #menuButton3 {
@@ -28,3 +31,9 @@ header, footer {
     text-align: center;
 }
 
+.section {
+    border: 5px solid purple;
+    border-radius: 5px;
+    margin: 25px 0px;
+    padding: 0px 10px;
+}
