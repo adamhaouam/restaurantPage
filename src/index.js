@@ -12,4 +12,6 @@ button1.addEventListener("click", createPage1);
 button2.addEventListener("click", createPage2);
 button3.addEventListener("click", createPage3);
 
+createPage1();
+
 

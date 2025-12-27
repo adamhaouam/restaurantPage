@@ -17,6 +17,10 @@ body {
     margin: 20px;
     padding: 25px;
     border-radius: 5px;
+    display: flex;
+    flex: 1 100%;
+    flex-direction: column;
+
 }
 
 #menuButton1, #menuButton2, #menuButton3 {
@@ -40,4 +44,18 @@ header, footer {
 
 h3 {
     font-size: 1rem;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    gap: 10px;
 }
