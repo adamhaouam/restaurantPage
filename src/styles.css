@@ -37,3 +37,7 @@ header, footer {
     margin: 25px 0px;
     padding: 0px 10px;
 }
+
+h3 {
+    font-size: 1rem;
+}

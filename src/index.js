@@ -1,4 +1,6 @@
-import { createPage1, createPage2, createPage3 } from "./createPage.js";
+import createPage1 from "./createPage1.js";
+import createPage2 from "./createPage2.js";
+import createPage3 from "./createPage3.js";
 import "./styles.css";
 import '../node_modules/modern-normalize';
 
